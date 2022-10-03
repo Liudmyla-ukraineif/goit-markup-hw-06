@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML_CSS Lesson 4</title>
+    <title>HTML_CSS Lesson 6</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -384,6 +384,45 @@
                 <svg class="icon-close"><use href="./images/close.svg#close">
                 </svg>
             </button>
+            <p class="modal-titel">Залиште свої дані, ми вам передзвонимо</p>
+            <form action="" class="modal-form">
+                <div class="form-element">
+                    <div class="block-input">
+                        <label for="name"class="form-label">Ім'я</label>
+                        <div class="form-wrap">
+                            <input type="text" name="name" id="name">
+                            <svg class="icon-modal" width="18" height="18"><use href="./images/icons.svg#person">
+                            </svg>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="form-element">
+                    <label for="telephon">Телефон</label>
+                    <input type="tel" name="telephon" id="telephon">
+                </div>
+
+                <div class="form-element">
+                    <label for="email">Пошта</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-element">
+                    <label for="name">Коментар</label>
+                    <textarea name="commit" id="commit" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-element">
+                    <label for="checkbox">Погоджуюся з розсилкою та приймаю<a href="" class="contract">Умови договору</a></label>
+                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                </div>
+
+                <button type="submit" class="btn-submit">відправити</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
