@@ -989,6 +989,8 @@ img {
 
 .form-check {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-check-label {
